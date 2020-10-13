@@ -1,0 +1,12 @@
+{
+  "$id": "https://raw.githubusercontent.com/peksi/data-syntax-accident-counter/v1.0.0/accident-counter.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "Accident counter data syntax for Valotalive",
+  "type": "object",
+  "properties": {
+    "currentValue": {
+      "type": "number"
+    }
+  },
+  "required": ["currentValue"]
+}
