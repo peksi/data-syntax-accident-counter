@@ -6,7 +6,10 @@
   "properties": {
     "currentValue": {
       "type": "number"
+    },
+    "currentDestination": {
+      "type": "string"
     }
   },
-  "required": ["currentValue"]
+  "required": ["currentValue", "currentDestination"]
 }
