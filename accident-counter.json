@@ -9,7 +9,18 @@
     },
     "currentDestination": {
       "type": "string"
+    },
+    "accidentFreeDaysText": {
+      "type": "string"
+    },
+    "companyLogo": {
+      "type": "string"
     }
   },
-  "required": ["currentValue", "currentDestination"]
+  "required": [
+    "currentValue",
+    "currentDestination",
+    "accidentFreeDaysText",
+    "companyLogo"
+  ]
 }
