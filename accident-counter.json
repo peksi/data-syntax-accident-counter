@@ -15,12 +15,29 @@
     },
     "companyLogo": {
       "type": "string"
+    },
+    "holidays": {
+      "type": "array",
+      "items": {
+        "startDate": "string",
+        "endDate": "string",
+        "required": ["startDate", "endDate"]
+      }
+    },
+    "accidents": {
+      "type": "array",
+      "items": {
+        "accidentDate": "string",
+        "required": ["accidentDate"]
+      }
     }
   },
   "required": [
     "currentValue",
     "currentDestination",
     "accidentFreeDaysText",
-    "companyLogo"
+    "companyLogo",
+    "accidents",
+    "holidays"
   ]
 }
