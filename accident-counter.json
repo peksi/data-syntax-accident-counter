@@ -4,9 +4,6 @@
   "description": "Accident counter data syntax for Valotalive",
   "type": "object",
   "properties": {
-    "currentValue": {
-      "type": "number"
-    },
     "currentDestination": {
       "type": "string"
     },
@@ -36,7 +33,6 @@
     }
   },
   "required": [
-    "currentValue",
     "currentDestination",
     "accidentFreeDaysText",
     "companyLogo",
