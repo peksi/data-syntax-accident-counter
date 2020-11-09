@@ -16,6 +16,9 @@
     "companyLogo": {
       "type": "string"
     },
+    "startDate": {
+      "type": "string"
+    },
     "holidays": {
       "type": "array",
       "items": {
@@ -38,6 +41,7 @@
     "accidentFreeDaysText",
     "companyLogo",
     "accidents",
-    "holidays"
+    "holidays",
+    "startDate"
   ]
 }
