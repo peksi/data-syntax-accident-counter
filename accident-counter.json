@@ -10,9 +10,6 @@
     "accidentFreeDaysText": {
       "type": "string"
     },
-    "companyLogo": {
-      "type": "string"
-    },
     "startDate": {
       "type": "string"
     },
