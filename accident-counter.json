@@ -32,7 +32,6 @@
   "required": [
     "currentDestination",
     "accidentFreeDaysText",
-    "companyLogo",
     "accidents",
     "holidays",
     "startDate"
